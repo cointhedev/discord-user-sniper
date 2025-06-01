@@ -1,2 +1,2 @@
-# Proxies
+# Proxies (optional)
 # Format: ip:port or user:pass@ip:port

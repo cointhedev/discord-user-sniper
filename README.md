@@ -31,14 +31,14 @@ cd discord-user-sniper
    - Download from: https://www.python.org/downloads/
    - During installation, make sure to check "Add Python to PATH"
 
-2. Create `tokens.txt` with your Discord tokens (one per line):
+2. Edit `tokens.txt` with your Discord tokens (one per line):
 ```
 token1
 token2
 token3
 ```
 
-3. (Optional) Create `proxies.txt` with your proxies (one per line):
+3. (Optional) Edit `proxies.txt` with your proxies (one per line):
 ```
 ip:port
 username:password@ip:port
