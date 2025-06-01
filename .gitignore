@@ -1,7 +1,4 @@
-# Environment files
-.env
-tokens.txt
-proxies.txt
+.gitignore
 
 # Python
 __pycache__/
