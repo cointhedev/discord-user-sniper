@@ -44,6 +44,27 @@ ip:port
 username:password@ip:port
 ```
 
+## Customization
+
+### Changing Username Length
+By default, the tool searches for 3-character usernames. To change this:
+
+1. Open `src/utils.py`
+2. Find the `getUsername()` function
+3. Change `k=3` to your desired length (e.g., `k=4` for 4 characters)
+4. Save the file and run the script
+
+Example:
+```python
+def getUsername() -> str:
+    allowed_chars = string.ascii_lowercase + string.digits + '_' + '.'
+    
+    while True:
+        username = ''.join(random.choices(allowed_chars, k=4))  # Changed from k=3 to k=4
+        if '..' not in username:
+            return username
+```
+
 ## Usage
 
 ### Windows Users
