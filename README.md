@@ -17,8 +17,8 @@ A tool to find available 3-character usernames on Discord.
    - Download from: https://git-scm.com/downloads
 2. Open terminal/command prompt and run:
 ```bash
-git clone https://github.com/cointhedev/token-checker.git
-cd token-checker
+git clone https://github.com/cointhedev/discord-user-sniper.git
+cd discord-user-sniper
 ```
 
 ### Method 2: Manual Download
