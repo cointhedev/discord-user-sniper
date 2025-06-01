@@ -1,4 +1,5 @@
 @echo off
+cls
 title Discord Username Sniper
 color 0a
 
@@ -10,8 +11,8 @@ if errorlevel 1 (
     exit
 )
 
-echo Installing requirements...
-pip install -r requirements.txt
+echo Installing requirements - please wait...
+pip install -r requirements.txt >nul
 
 python main.py
 pause 
