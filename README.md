@@ -12,10 +12,9 @@ A tool to find available 3-character usernames on Discord.
 
 ## Setup
 
-1. Install requirements:
-```bash
-pip install -r requirements.txt
-```
+1. Make sure you have Python 3.8 or higher installed
+   - Download from: https://www.python.org/downloads/
+   - During installation, make sure to check "Add Python to PATH"
 
 2. Create `tokens.txt` with your Discord tokens (one per line):
 ```
@@ -32,7 +31,21 @@ username:password@ip:port
 
 ## Usage
 
-Run the script:
+### Windows Users
+Simply double-click `start.bat` to run the script. The batch file will:
+- Check if Python is installed
+- Install required packages
+- Run the script
+
+### Manual Run
+If you prefer to run manually or are on a different OS:
+
+1. Install requirements:
+```bash
+pip install -r requirements.txt
+```
+
+2. Run the script:
 ```bash
 python main.py
 ```
