@@ -92,4 +92,4 @@ This tool is for educational purposes only. Use responsibly and at your own risk
 
 ## Author
 
-Made by @coin.dev 
+Made by @94px
